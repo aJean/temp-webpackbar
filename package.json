@@ -1,6 +1,6 @@
 {
   "name": "temp-webpackbar",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Elegant ProgressBar and Profiler for Webpack",
   "repository": "aJean/temp-webpackbar",
   "license": "MIT",
