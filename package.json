@@ -15,7 +15,7 @@
     "clean": "rimraf dist",
     "demo": "webpack-cli --config demo/webpack.config.js",
     "lint": "eslint --ext .ts src test",
-    "release": "yarn build && standard-version && npm publish && git push --follow-tags",
+    "release": "standard-version && npm publish && git push --follow-tags",
     "start": "yarn build -- -w",
     "test": "yarn lint && yarn build && jest"
   },
