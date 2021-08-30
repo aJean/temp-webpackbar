@@ -11,13 +11,10 @@
   ],
   "scripts": {
     "prebuild": "yarn clean",
-    "build": "siroc build",
     "clean": "rimraf dist",
     "demo": "webpack-cli --config demo/webpack.config.js",
     "lint": "eslint --ext .ts src test",
-    "release": "standard-version && npm publish && git push --follow-tags",
-    "start": "yarn build -- -w",
-    "test": "yarn lint && yarn build && jest"
+    "release": "standard-version && npm publish && git push --follow-tags"
   },
   "dependencies": {
     "ansi-escapes": "^4.3.1",
